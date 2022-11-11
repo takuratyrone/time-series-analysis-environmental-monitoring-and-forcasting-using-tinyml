@@ -34,7 +34,7 @@ unsigned long timerDelay = 900000;
 int entries = 0;
 
 // sine_model.h contains the array you exported from Python with xxd or tinymlgen
-#include "conv_model3.h"
+#include "dense_model-10m.h"
 
 #define N_INPUTS 5
 #define N_OUTPUTS 1
@@ -84,7 +84,7 @@ void setup() {
     Serial.println("\nSensors connected successfully!\n");
   
     delay(4000);
-    tf.begin(conv_model3_tflite);
+    tf.begin(dense_model_10m_tflite);
 
     // check if model loaded fine
     if (!tf.isOk()) {
