@@ -1,4 +1,4 @@
-# time-series-analysis-environmental-monitoring-and-forcasting-using-tinyml
+# Time Series Analysis for Environmental Monitoring and Forcasting using Tinyml
 
 ## Abstract
 TinyML is a technology that allows machine learning models to run on low-power devices
